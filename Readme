@@ -491,6 +491,11 @@ Delete Kubernetes Services: On your Jenkins instance, delete the application and
 kubectl delete -f deployment.yaml
 kubectl delete -f service.yaml
 helm uninstall prometheus --namespace monitoring
+
+For more reference please view document file
 kubectl delete namespace monitoring
 Destroy Terraform Resources: On your local machine, run terraform destroy.
 terraform destroy
+
+For more detail for your refferences:
+https://github.com/Saravanave/trend-app2.git
